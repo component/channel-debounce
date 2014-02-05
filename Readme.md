@@ -1,4 +1,3 @@
-
 # channel-debounce
 
 Debounce component for [channel](https://github.com/component/channel).
@@ -6,7 +5,10 @@ Debounce component for [channel](https://github.com/component/channel).
 Drops repeated events that happen within a specified time interval.
 
 ```javascript
-chan.use(drop(500));
+var channel = require('channel');
+var debounce = require('channel-debounce');
+var chan = channel();
+chan.use(debounce(500));
 ```
 
 ## Installation

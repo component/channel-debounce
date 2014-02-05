@@ -1,6 +1,6 @@
 # channel-debounce
 
-Debounce component for [channel](https://github.com/component/channel).
+Debounce middleware for [channel](https://github.com/component/channel).
 
 Drops repeated events that happen within a specified time interval.
 
